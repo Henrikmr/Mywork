@@ -1,0 +1,33 @@
+html,
+body{
+  font-family: monospace;
+  text-align: center;
+  background-color: #B5B5B3;
+
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.input-field{
+  height: 20px;
+  width: 300px;
+  padding: 7px;
+  margin: 14px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.labels {
+
+}
+#form-outer {
+    background-color: #00A1F1;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 1000px;
+}
