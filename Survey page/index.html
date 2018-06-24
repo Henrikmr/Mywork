@@ -5,7 +5,7 @@
     <h1 id="title">Survey Form</h1>
     <div id="form-outer">
     <p id="description">
-      Let us know how we can improve our service
+      Work application at YEETYEET
     </p>
     <form id="survey-form" method="GET"
     action="https://crossorigin.me/https://freecodecamp.com">
@@ -29,13 +29,22 @@ class="input-field" placeholder="Enter your Age" required>
     <select id="dropdown" name="currentPos" class="dropdown">
       <option value="job"> Full time Job</option>
       <option value="halfjob"> Part time Job</option>
+      <option value="nojob"> Don't have an Job</option>
+      <option value="student"> Student</option>
       <option value="prefno"> Prefer not to answer</option>
       <option value="other"> Other</option>
-      <option value="student"> Student</option>
-      <option value="nojob"> Don't have an Job</option>
     </select>
   </div>
-
+  <div class="labels">
+    <label for="workbefore"> *Have you worked in this area of work before?</label>
+  </div>
+    <ul style="list-style:none;">
+      <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="workbefore"></label></li>
+      <li class="radio"><label>No<input name="radio-buttons" value="2" type="radio" class="workbefore"></label></li>
+      <li class="radio"><label>Don't know<input name="radio-buttons" value="3" type="radio" class="workbefore"></label></li>
+    </ul>
+    
 </div>
+
   </body>
 </html>
