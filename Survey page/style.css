@@ -2,7 +2,7 @@ html,
 body{
   font-family: monospace;
   text-align: center;
-  background-color: #B5B5B3;
+  background-color: #00A1F1;
 
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 }
 #form-outer {
-    background-color: #00A1F1;
+    background-color: #B5B5B3;
     margin: 0 auto;
     border-radius: 5px;
     width: 60%;
