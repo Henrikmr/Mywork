@@ -524,6 +524,11 @@ footer {
   float: left;
 }
 
+.social-links {
+    list-style: none;
+    float: right;
+}
+
 .footer-nav li,
 .social-links li{
   display: inline-block;
